@@ -1,0 +1,20 @@
+.navbar-page {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  background: transparent;
+  overflow: hidden;
+  box-sizing: border-box;
+  .navbar-page__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    .navbar-page__content__box {
+      flex: 1;
+    }
+  }
+}

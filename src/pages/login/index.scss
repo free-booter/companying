@@ -1,0 +1,32 @@
+.login-page {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    color: #6190E8;
+  }
+  .at-form {
+    background: transparent;
+    &::after {
+      display: none;
+    }
+  }
+  .at-input  {
+    margin: 0;
+    padding-left: 50px;
+  }
+  .btn-box {
+    margin-top: 100px;
+    .at-button {
+      margin-bottom: 50px;
+    }
+  }
+}

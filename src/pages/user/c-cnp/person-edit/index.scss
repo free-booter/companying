@@ -1,0 +1,16 @@
+.person-detail {
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  .at-button {
+    margin-top: 40px;
+  }
+  .at-list {
+    &::after {
+      display: none;
+    }
+    .at-list__item {
+      padding-left: 36px;
+    }
+  }
+}
